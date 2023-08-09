@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="portfolio">
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#"><div class="tooltip">Home<span class="tooltiptext">This is home page</span></div></a></li>
+                <li><a href="#about"><div class="tooltip">About<span class="tooltiptext">You can know about galle</span></div></a></li>
+                <li><a href="#ab"><div class="tooltip">Place to visit<span class="tooltiptext">Attractive place in Galee</span></div></a></li>
+                <li><a href="#footer"><div class="tooltip">Contact<span class="tooltiptext">Contact via Social Media </span></div></a></li>
+                <li><a href="#feedback"><div class="tooltip">Feedback<span class="tooltiptext">Give feedback to Our page</span></div></a></li>
+                <li><a href="logreg.html">login/register</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h4>lets visit</h4>
+            <h1>Beauty Of <span>Galle</span></h1>
+            <h3>Heart of Southern Province</h3>
+        </div>
+    </div>
+
+<section id="about">
+        <div class="main">
+           <div class="slideshow">
+  <img src="image1.jpg" alt="Image 1">
+  <img src="image2.jpg" alt="Image 2">
+  <img src="image3.jpg" alt="Image 3">
+</div>
+            <div class="atext">
+                <h2>About</h2>
+                <h5>Galle <span>is Paradise</span></h5>
+                <p>Perched on Sri Lanka’s southwest coast, Galle wears its history on its sleeve. Windswept beaches and nodding palms surround its colonial-era showpiece, a 16th-century Portuguese-built fort, while the rest of the city is trimmed with Dutch-style houses, quirky shops, whitewashed mansions, and heritage museums
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="ab">
+        <div class="title">
+            <h2>Place to visit</h2>
+        </div>
+
+        <div class="box">
+            <div class="sec">
+                <h5>Galle port</h5>
+                <img src="c.jpg" alt="galle" style="width: 100px;">
+                <p>Galle Fort is a historic fortress located in Galle, Sri Lanka. It is a UNESCO World Heritage Site known for its colonial architecture and picturesque streets.</p>
+            </div>
+
+            <div class="sec">
+                <h5>Rumassala</h5>
+                <img src="d.jpg" alt="Rumassala" style="width: 100px;">
+                <p>Rumassala in Galle is a picturesque hill with lush greenery and a popular tourist attraction in Sri Lanka known for its breathtaking views and legendary folklore.</p>
+            </div>
+
+            <div class="sec">
+                <h5>Unawatuna Beach</h5>
+                <img src="e.jpg" alt="Unawatuna" style="width: 100px;">
+                <p>Unawatuna beach is a picturesque coastal paradise in Sri Lanka known for its golden sands, crystal-clear waters, and vibrant coral reefs.</p>
+            </div>
+        </div>
+         <center> <button id="toggleButton"><a href="More place of galle.pdf">Show More</a></button></center>  
+    </div>
+
+
+
+
+    <footer id="footer">
+        <p>Search Galle on facebook,instragram and Linkedin</p>
+        <div class="social">
+            <center>
+            <a href="#"><i class="icono-facebook"></i></a><br><br>
+            <a href="#"><i class="icono-instagram"></i></a><br><br>
+            <a href="#"><i class="icono-linkedIn"></i></a><br><br></center>
+        </div>
+        <p class="email"><span><b>Email: </b></span>gallesrilanka@gmail.com</p>
+        
+    </footer>
+    <div id="feedback">
+    
+<h1 id="myHeading">Feedback about WebPage</h1>
+  <form onsubmit="return validateForm()">
+    <label>Email Address:</label>
+    <input type="text" id="email" required>
+    <br><br>
+    <label>Your_Feedback</label>
+    <textarea id="feedbacks" rows="4" cols="30" required></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login form</title>
+	<style>
+
+		body{
+			background-image: url('k.jpg');
+          	background-size: 100%;
+          	font-size: 40px;
+		}
+		#y1{
+            font-size: 30px;
+            background-color: blue;
+		}
+		#y2{
+            font-size: 30px;
+            background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<center><form action="register.php" method="post">
+		<h2>VISIT GALLE</h2>
+
+		<p>User Name:<input type="text" name="name" required="yes"></p>
+		
+		<p>Password:	<input type="password" name="pwd" required="yes"></p>
+	
+		<p>age:<input type="text" name="age" required="yes"></p>
+		
+		<p>Gender:<select name="gender" required="yes">
+			<option>Male</option>
+			<option>Female</option>
+		</select></p>
+		<p>Contact:
+		<input type="text" name="tp" placeholder="telephone number" required="yes"></p>
+		
+		<input type="submit" value="submit" id="y1">
+		<input type="reset" value="reset" id="y2">
+
+
+
+
+	</form></center>
+
+</body>
+</html>
